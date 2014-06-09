@@ -32,9 +32,8 @@ on http://bedtools.googlecode.com/.
 
 .. code-block:: bash
 
-  $ curl http://bedtools.googlecode.com/files/BEDTools.<version>.tar.gz > BEDTools.tar.gz
-  $ tar -zxvf BEDTools.tar.gz
-  $ cd BEDTools-<version>
+  $ git clone https://github.com/arq5x/bedtools2.git
+  $ cd bedtools2/
   $ make
   
 At this point, one should copy the binaries in ./bin/ to either 
